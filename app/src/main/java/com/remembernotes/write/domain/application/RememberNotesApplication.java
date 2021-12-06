@@ -1,13 +1,13 @@
-package com.remembernotes.app;
+package com.remembernotes.write.domain.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RemembernotesApplication {
+public class RememberNotesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RemembernotesApplication.class, args);
+		SpringApplication.run(RememberNotesApplication.class, args);
 	}
 
 }

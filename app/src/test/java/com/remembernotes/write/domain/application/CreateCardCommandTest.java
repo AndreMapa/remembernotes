@@ -1,6 +1,7 @@
-package com.remembernotes.domain;
+package com.remembernotes.write.domain.application;
 
 
+import com.remembernotes.write.domain.core.Card;
 import org.junit.jupiter.api.Test;
 import java.util.UUID;
 
@@ -8,7 +9,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 
-public class CreateCardCommand {
+public class CreateCardCommandTest {
 
     @Test
     void GIVEN_ValidData_MUST_RetrieveSameData(){

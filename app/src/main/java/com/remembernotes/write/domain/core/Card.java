@@ -1,4 +1,4 @@
-package com.remembernotes.domain;
+package com.remembernotes.write.domain.core;
 
 import java.util.UUID;
 
